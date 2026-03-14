@@ -1,0 +1,213 @@
+Las funciones en Python son bloques de código que se crean para realizar una tarea específica y que se pueden usar varias veces dentro de un programa. Esto permite que el código sea más organizado, más fácil de entender y más fácil de mantener.
+
+Cuando un programa crece, es común que algunas instrucciones se repitan muchas veces. En lugar de escribir el mismo código varias veces, se puede crear una función que contenga esas instrucciones y luego simplemente llamarla cuando se necesite.
+
+1. ¿Qué es una función?
+
+Una función es un conjunto de instrucciones agrupadas que realizan una tarea.
+
+Por ejemplo, si queremos mostrar un saludo muchas veces en un programa, podemos crear una función para eso.
+
+Ejemplo sencillo
+def saludar():
+    print("Hola, bienvenido a Python")
+
+saludar()
+Explicación paso a paso
+
+def
+Es una palabra reservada de Python que significa definir una función.
+
+saludar
+Es el nombre de la función. El nombre debe describir lo que hace la función.
+
+()
+Los paréntesis indican que la función puede recibir datos de entrada llamados parámetros.
+
+:
+Indica que comienza el bloque de código de la función.
+
+print("Hola, bienvenido a Python")
+Es la instrucción que se ejecutará cuando la función sea llamada.
+
+saludar()
+Aquí estamos llamando o ejecutando la función.
+
+Cuando el programa llega a esa línea, Python ejecuta el código que está dentro de la función.
+
+2. Funciones con parámetros
+
+Las funciones pueden recibir información desde afuera. Esa información se llama parámetros.
+
+Esto permite que una misma función funcione con diferentes datos.
+
+Ejemplo
+def saludar(nombre):
+    print("Hola", nombre)
+
+saludar("Carlos")
+saludar("Maria")
+Explicación
+
+nombre es un parámetro que recibe la función.
+
+Cuando llamamos la función:
+
+saludar("Carlos")
+
+el valor "Carlos" se guarda en la variable nombre.
+
+El resultado será:
+
+Hola Carlos
+Hola Maria
+
+Esto permite reutilizar la función para muchas personas.
+
+3. Funciones que devuelven valores
+
+Muchas veces una función no solo ejecuta instrucciones, sino que calcula algo y devuelve un resultado.
+
+Para devolver un valor se usa la palabra return.
+
+Ejemplo
+def sumar(a, b):
+    resultado = a + b
+    return resultado
+
+total = sumar(5, 3)
+
+print(total)
+Explicación
+
+La función recibe dos números:
+
+a = 5
+b = 3
+
+Luego realiza la operación:
+
+resultado = a + b
+
+Después usa:
+
+return resultado
+
+Esto significa que la función entrega el resultado al programa.
+
+La variable total guarda el valor que devuelve la función.
+
+Salida:
+
+8
+4. Ejemplo práctico más completo
+
+Supongamos que queremos hacer un pequeño programa para calcular el promedio de notas de un estudiante.
+
+Código
+def calcular_promedio(n1, n2, n3):
+    promedio = (n1 + n2 + n3) / 3
+    return promedio
+
+
+def mostrar_resultado(nombre, promedio):
+    print("Estudiante:", nombre)
+    print("Promedio:", promedio)
+
+    if promedio >= 3:
+        print("Estado: Aprobado")
+    else:
+        print("Estado: Reprobado")
+
+
+nota_final = calcular_promedio(4.0, 3.5, 4.2)
+
+mostrar_resultado("Ana", nota_final)
+Explicación
+
+Primero se crea la función:
+
+calcular_promedio
+
+Esta función recibe tres notas, calcula el promedio y lo devuelve.
+
+Luego existe otra función:
+
+mostrar_resultado
+
+Esta función muestra en pantalla:
+
+nombre del estudiante
+
+promedio
+
+si aprobó o no
+
+El programa funciona así:
+
+1️⃣ Se calcula el promedio
+2️⃣ Se guarda el resultado
+3️⃣ Se muestran los datos
+
+Salida posible:
+
+Estudiante: Ana
+Promedio: 3.9
+Estado: Aprobado
+5. Ventajas de usar funciones
+
+Usar funciones tiene varias ventajas importantes en programación.
+
+1. Evitan repetir código
+
+Se escribe una vez y se usa muchas veces.
+
+2. Hacen el programa más organizado
+
+Cada función cumple una tarea específica.
+
+3. Facilitan la lectura del programa
+
+Otros programadores pueden entender mejor el código.
+
+4. Permiten dividir problemas grandes
+
+Un programa grande se puede dividir en muchas funciones pequeñas.
+
+6. Ejemplo simple de reutilización
+def cuadrado(numero):
+    return numero * numero
+
+print(cuadrado(2))
+print(cuadrado(5))
+print(cuadrado(10))
+
+Salida:
+
+4
+25
+100
+
+Una sola función permite calcular el cuadrado de cualquier número.
+
+En resumen
+
+Una función en Python:
+
+Se define con def
+
+Puede recibir parámetros
+
+Puede devolver valores usando return
+
+Permite reutilizar código
+
+Hace los programas más organizados
+
+Si quieres, también puedo darte algo que suele gustar mucho a los estudiantes:
+
+10 ejercicios fáciles de funciones en Python
+
+Un mini taller de 1 hora para aprender funciones
+
+Un ejemplo de CRUD sencillo en Python usando funciones
