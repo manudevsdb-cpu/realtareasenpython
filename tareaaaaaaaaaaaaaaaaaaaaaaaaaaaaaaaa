@@ -1,0 +1,61 @@
+una funcion es una parte de codigo que ayuda a crear una funcion para en este caso ponerle dentro de ella codigon uno muy dundamental es el def
+ejemplom ajioajio
+
+def ola():
+    print("watajai")
+ola()
+console = watajai
+en donde dice cnsole es lo que teimprimiria la consola se la puede llamar muchas veces pero yo lo hice asta ahi :p
+
+tiene de tios de variables 2 numericas y una string
+porque una numerica no se puede escribir asi ola= "8"
+se la escribe asi ola= 8
+y la string si se la escribe asi ola= "ola"
+porque es una cadena de texto
+
+
+OR sirve para  ver si un resiltado es false or true tonces yo pondria 
+1<5 or 4<2 daria el resultado false porque 4 no puede ser menor q 2 pero si lo pongo asi 
+1<5 or 4>2 estaria bien porq 4 si es mayor que 2 
+ ejemplo 
+edad = 12
+tiene_permiso = True
+
+if edad >= 13 or tiene_permiso:
+    print("Puedes entrar")
+not sirve para decir que si lo que digo aci es falso y es la otra cosa porejemplo
+not true da de resultado false y not false da de resultado true
+tiene_tarea = False
+
+if not tiene_tarea:
+    print("Puedes jugar")
+and  sirve para solo situasiones donde 2 variables so true sino siempre el resultado sera false  
+
+edad = 15
+tiene_permiso = True
+
+if edad >= 13 and tiene_permiso:
+    print("Puedes entrar")
+una extuctura condicional es  ua linea de code que ayuda a decir que si algo no es berdad o si es verdad pase una accion todo lo que dije es el if y otro complementario para el if 
+es else osea un ejemplo 
+edad = 12
+if edad >= 18 :
+     print("pasa")
+ese es el code de mayor if osea el 6
+num1 = int(input("Ingresa el primer número: "))
+num2 = int(input("Ingresa el segundo número: "))
+
+if num1 > num2:
+    print("El número mayor es:", num1)
+
+if num2 > num1:
+    print("El número mayor es:", num2)
+
+if num1 == num2:
+    print("Los dos números son iguales")
+
+es importante porque la variable es FUNDAMENTAL porque guardan datos sin eso no se podria codificr NAD- y los condicionales para implicar condiciones
+bn eso f
+ue todo baiiiiiiiiiiiiiiiiiiiiiiiiii
+
+
