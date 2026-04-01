@@ -1,0 +1,21 @@
+¿Qué es Live Server?
+
+Live Server es un servidor de desarrollo que hace que, si cambias un archivo en tu proyecto, el navegador lo recargue solo.
+Es decir, no es ninguna librería independiente de Python, sino una funcionalidad que puedes conseguir con varios programas, como se explica más abajo.
+
+¿Para qué sirve?
+Evita administrativamente recargar
+Muestra cambios conforme van sucediendo
+Acelera el desarrollo
+¿Cómo funciona?
+Vigila archivos
+Detecta cambios
+Recarga el navegador
+Experiencias en Python
+livereload: recarga automática del navegador
+Flask: reinicia el servidor cuando estamos en modo debug
+Django: recarga en automaticidad en proyectos grandes
+watchdog: detecta cambios (más avanzado)
+Idea clave
+Servidor normal	Live Server
+Sirve archivos	Sirve + recarga automáticamente
